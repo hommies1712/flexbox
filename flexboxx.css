@@ -1,0 +1,27 @@
+body{
+	margin: 0px;
+}
+h1{
+	font-size: 2em;
+	font-family: 'Dancing Script', cursive;
+	border-bottom: 4px solid orange;
+	width: 400px;
+	border-right:4px solid orange;
+	width: 400px;
+	box-shadow: 4px 4px 5px #888888;
+	text-align: center;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+}
+img{
+	width: 350px;
+	height:300opx;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
